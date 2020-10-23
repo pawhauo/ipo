@@ -4,5 +4,5 @@
   "mongoURI": "mongodb+srv://adminn:GVrvlr9jNqPULeMe@mesarp.q6squ.mongodb.net/ipoCanary?retryWrites=true&w=majority",
   "owner": ["712258317941997591","694552600707858473"],
   "buildname": "CANARY",
-  "buildversion": "0.0.1"
+  "buildversion": "1.0.0"
 }

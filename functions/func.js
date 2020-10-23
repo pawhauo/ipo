@@ -74,9 +74,10 @@ async function checkAct(clanID, guildid, member1, member2){
 module.exports.checkAct = checkAct
 
 async function setOwner(clanID, guildID, newOwner){
-    let clanTable = await Clan.findOne({ clanID: clanID, guildID: guildid })
+    let clanTable = await Clan.findOne({ clanID: clanID, guildID: guildID })
     if(!clanTable)return(new Error("Clan not found"))
     let oldOwner
+    clanTable.owner = newOwner.id
     for(const member of clanTable.members){
         if(member.userRank === 'owner'){
             member.userRank = 'user'
@@ -89,7 +90,6 @@ async function setOwner(clanID, guildID, newOwner){
         }
     }
     let roR = false
-    clanTable.owner = newOwner.id
     setTimeout(async() => {
         await clanTable.save()
         if(clanTable.owner === newOwner.id){
@@ -99,8 +99,8 @@ async function setOwner(clanID, guildID, newOwner){
                 }
             }
         }
-    return roR
     }, 100)
+    return roR
 }
 module.exports.setOwner = setOwner
 
