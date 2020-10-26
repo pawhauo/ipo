@@ -7,7 +7,7 @@ const CanaryCfg = require('./configs/canaryConfig.json')
 global.User = require('./configs/mongoConfig').user
 global.Guild = require('./configs/mongoConfig').guild
 global.Clan = require('./configs/mongoConfig').clan
-bot.cfg = MainCfg
+bot.cfg = CanaryCfg
 bot.commands = new Discord.Collection()
 mongoose.connect(bot.cfg.mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.on('connected',async()=>{

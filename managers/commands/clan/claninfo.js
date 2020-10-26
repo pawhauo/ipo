@@ -7,7 +7,7 @@ module.exports = {
         let toClanIID = args[0]
         let clanTable = await Clan.findOne({ guildID: message.guild.id, clanID: toClanIID })
         if(!clanTable)return(message.reply(":x: Клан с таким ID не найден."))
-        let ow = bot.users.fetch(clanTable.owner)
+        let ow = bot.users.cache.find(u => u.id === clanTable.owner)
         let embed = new Discord.MessageEmbed()
             .setTitle(`Информация о клане ${clanTable.clanName}`)
             .setDescription(`Описание: ${clanTable.clanBIO}`)

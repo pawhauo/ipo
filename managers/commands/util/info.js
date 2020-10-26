@@ -14,7 +14,7 @@ module.exports = {
             .setTitle("IPO > Информация о боте")
             .setColor("GREEN")
             .addField("Сборка",`${bot.cfg.buildname}_${bot.cfg.buildversion}`, true)
-            .addField("Разработчик", `ipodelicant#7777`, true)
+            .addField("Разработчик", `RatGG_#7777`, true)
             .addField("Стастика",`Серверов: ${bot.guilds.cache.size}\nШардов: ${s}`)
             .addField("Библиотека", `DISCORD.JS (NodeJSv12)`, true)
             .addField("Сервер Поддержки", `[https://discord.gg/WDVWhQ3](https://discord.gg/WDVWhQ3)`, true)
