@@ -8,7 +8,7 @@ module.exports = {
         if(!message.member.permissions.has("ADMINISTRATOR"))return(message.reply(":x: Недостаточно прав для выполенния **forceSetOwner**"))
         let clannID = args[0]
         let toOwner = message.mentions.members.first()
-        let clanTable = await Clan.findOne({ clanID: clannID })
+        let clanTable = await Clan.findOne({ clanID: clannID, guildID: message.guild.id })
         if(!clanTable)return(message.reply(":x: Клан с таким ID не найден."))
         if(!toOwner)return(message.reply(":x: Укажите участника которому передать владение."))
         let oldOwner

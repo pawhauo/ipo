@@ -7,7 +7,7 @@ module.exports = {
     async execute(bot, message, args) {
         let clanIID = args[0]
         let toName = args.slice(1).join(" ")
-        let clanTable = await Clan.findOne({ clanID: clanIID })
+        let clanTable = await Clan.findOne({ clanID: clanIID, guildID: message.guild.id })
         if(!clanTable)return(message.reply(":x: Клан с таким ID не найден"))
         let toR = false
        await checkRights(clanIID, message.guild.id, 4, message.member).then(a => {

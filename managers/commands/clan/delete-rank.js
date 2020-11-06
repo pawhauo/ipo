@@ -8,7 +8,7 @@ module.exports = {
         const defRanks = ['user','vip','moder','admin','superadmin','owner']
         let clanIID = args[0]
         let rankName = args[1]
-        let clanTable = await Clan.findOne({ clanID: clanIID })
+        let clanTable = await Clan.findOne({ clanID: clanIID, guildID: message.guild.id })
         if(!clanTable)return(message.reply(":x: Клан с таким ID не найден"))
         let toR = false
         await checkRights(clanIID, message.guild.id, 5, message.member).then(a => {

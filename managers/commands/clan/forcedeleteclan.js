@@ -6,7 +6,7 @@ module.exports = {
     async execute(bot, message, args) {
         if(!message.member.permissions.has("ADMINISTRATOR"))return(message.reply(":x: Недостаточно прав для выполенния **forceDeleteClan**"))
         let clannID = args[0]
-        let clanTable = await Clan.findOne({ clanID: clannID })
+        let clanTable = await Clan.findOne({ clanID: clannID, guildID: message.guild.id })
         if(!clanTable)return(message.reply(":x: Клан с таким ID не найден."))
         message.channel.send(`Вы точно хотите удалить клан ${clanTable.clanName}?`).then(async m => {
             await m.react("✅")

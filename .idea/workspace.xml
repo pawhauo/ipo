@@ -3,8 +3,15 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e028e6f-3136-4256-8f5e-88e6c1c0dc0b" name="Default Changelist" comment="" />
+    <list default="true" id="7e028e6f-3136-4256-8f5e-88e6c1c0dc0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,19 +24,32 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j9npRmnQCGmitpV47IvdQTJj3a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.69" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nulled\Desktop\ipo\managers\commands\clan" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
@@ -55,17 +75,95 @@
       <workItem from="1603397309155" duration="55000" />
       <workItem from="1603460031156" duration="14456000" />
       <workItem from="1603480666237" duration="197000" />
+      <workItem from="1603481170863" duration="8609000" />
+      <workItem from="1603532514198" duration="6215000" />
+      <workItem from="1603556461722" duration="4257000" />
+      <workItem from="1603656423375" duration="320000" />
+      <workItem from="1603658401572" duration="37000" />
+      <workItem from="1603659091649" duration="18000" />
+      <workItem from="1603722905041" duration="365000" />
+      <workItem from="1604070182588" duration="4000" />
+      <workItem from="1604070352856" duration="5000" />
+      <workItem from="1604072322229" duration="7000" />
+      <workItem from="1604086142271" duration="11000" />
+      <workItem from="1604232018934" duration="12000" />
+      <workItem from="1604246043462" duration="10000" />
     </task>
+    <task id="LOCAL-00001" summary="BETA_STABLE_1.0.0">
+      <created>1603490975532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603490975532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BETA_STABLE_1.0.0">
+      <created>1603491067208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603491067208</updated>
+    </task>
+    <task id="LOCAL-00003" summary="STABLE">
+      <created>1603554688521</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603554688521</updated>
+    </task>
+    <task id="LOCAL-00004" summary="STABLE">
+      <created>1603556363746</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603556363746</updated>
+    </task>
+    <task id="LOCAL-00005" summary="STABLE_1.0.1">
+      <created>1603723082126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603723082126</updated>
+    </task>
+    <task id="LOCAL-00006" summary="STABLE_1.0.1">
+      <created>1603723237703</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603723237703</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BETA_STABLE_1.0.0" />
+    <MESSAGE value="STABLE" />
+    <MESSAGE value="STABLE_1.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="STABLE_1.0.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603226039827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603226039827" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1603658430784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603658430784" />
     <state x="540" y="255" key="IDE.errors.dialog" timestamp="1603227825217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -74,17 +172,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="401" y="258" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603480748039" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603723241547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603723241547" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1603395577345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603395577345" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603472500176">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603553927701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603472500176" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603553927701" />
     <state x="682" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603227841959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="432" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603227841959" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bot.js</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

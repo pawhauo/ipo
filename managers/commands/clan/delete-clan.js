@@ -5,7 +5,7 @@ module.exports = {
     public: true,
     async execute(bot, message, args) {
         let clannID = args[0]
-        let clanTable = await Clan.findOne({ clanID: clannID })
+        let clanTable = await Clan.findOne({ clanID: clannID, guildID: message.guild.id })
         if(!clanTable)return(message.reply(":x: Клан с таким ID не найден."))
         let isOwner = false;
         for (const member of clanTable.members){
