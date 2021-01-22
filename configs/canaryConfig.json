@@ -1,8 +1,8 @@
 {
-  "token": "NzY4MjAyMzA0Njc0NTk0ODg3.X49CJQ._6kB3ySgcPWRcYCV8lpw5iFTRE4",
+  "token": "",
   "prefix": "canary.ipo!",
-  "mongoURI": "mongodb+srv://adminn:GVrvlr9jNqPULeMe@mesarp.q6squ.mongodb.net/ipoCanary?retryWrites=true&w=majority",
-  "owner": ["712258317941997591","694552600707858473"],
+  "mongoURI": "",
+  "owner": [],
   "buildname": "CANARY",
   "buildversion": "1.0.1"
 }
