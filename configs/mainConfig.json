@@ -1,8 +1,8 @@
 {
-  "token": "NzY4MjAwNTY2MTAyNTU2Njkz.X49Ahw.rI1eaOTlkcXe2Be1Wirk_FYPapw",
+  "token": "",
   "prefix": "ipo!",
-  "mongoURI": "mongodb+srv://adminn:GVrvlr9jNqPULeMe@mesarp.q6squ.mongodb.net/ipoMain?retryWrites=true&w=majority",
-  "owner": ["712258317941997591","694552600707858473"],
+  "mongoURI": "",
+  "owner": [],
   "buildname": "BETA_STABLE",
   "buildversion": "1.0.1"
 }
